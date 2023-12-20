@@ -1,0 +1,17 @@
+db.sqlite3
+venv
+__pycache__
+staticfiles/
+
+# environment variables
+.env.local
+
+# Archivos y carpetas a ignorar para Django
+*.pyc
+__pycache__/
+*.sqlite3
+.env
+
+# Archivos y carpetas a ignorar para React/Vite
+node_modules/
+/dist/
